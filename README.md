@@ -36,7 +36,13 @@ Using IFC.js requires a basic knowledge of web development (HTML, CSS, JavaScrip
 We will use IFC.js to load IFC files. This can be done by instantiating the loader and creating an event for when the user uploads an IFC file to the HTML input element.
 
 If you have done everything correctly, you should be able to see something similar to [this](https://ifcjs.github.io/hello-world/examples/web-ifc-three/helloworld/) in your local server.
+
 <img src="readme/01.png">
 
 In many BIM applications it is also possible to hide and isolate elements. A common use case is to hide all elements that do not comply with a certain filter or show only those objects belonging to a floor of the building. You can show or hide items using checkboxes.
+
 <img src="readme/02.png">
+
+You can paste your json error in textarea field to highlight your fail elements and show fail reasons.
+
+<img src="readme/03.png">
