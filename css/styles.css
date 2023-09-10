@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+#three-canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.toast-close {
+    background-color: white !important;
+    border-radius: 50px;
+    width: 24px;
+    padding: 0;
+    margin-left: 15px;
+    opacity: 1 !important;
+}
